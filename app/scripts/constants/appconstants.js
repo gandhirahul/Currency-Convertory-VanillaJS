@@ -5,7 +5,7 @@
 module.exports = {
 
   API_CLIENT : {
-    LATEST_CURRENCY: "http://api.fixer.io/latest?base="
+    LATEST_CURRENCY: "https://api.fixer.io/latest?base="
   }
 
 };
