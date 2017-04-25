@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Currency Convertor</title>
+        <meta name="description" content="Currency Convertor build with Javascript">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    </head>
+    <body>
+        <header class="header-fixed">
+            <div class="wrapper">
+                <div class="header-text">
+                    Currency Convertor
+                </div>
+            </div>
+        </header>
+        <h1 class="align-center">Currency Convertor</h1>
+        <div id="app" class="wrapper">
+            <div id="loader">
+                <img src="/images/ajax-loader.gif" />
+            </div>
+            <div id="conversion">
+
+                <div id="input-container clearfix">
+                    <input type="text" class="input-control" id="currency" placeholder="Enter the currency to convert" />
+                    <select id="catagory" >
+                      <option selected disabled>Select Currency</option>
+                    </select>
+                </div>
+                <div id="output-container">
+                    
+                </div>
+            </div>
+        </div>
+    
+    <script src="/scripts/app.js"></script>
+    </body>
+</html>
