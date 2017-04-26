@@ -6,37 +6,54 @@
   	}
   	#currency{
 	    width: 75%;
-	    display: inline-block;
 	    float: left;
+	    height: 40px;
+	    outline: 0;
+	    display: table-cell;
+	    border-right: 0;
+	    border-radius: 0;
+	    border-top-left-radius: 5px;
+	    border-bottom-left-radius: 5px;
 	}
 	#catagory{
-	    width: 24%;
-	    margin-left: 1%;
+	    width: 25%;
 	    float: left;
+	    outline: 0;
 	    display: inline-block;
 	    padding: 8px;
-        height: 34px;
+        height: 40px;
 	    background: white;
 	    border: 1px solid rgba(0, 0, 0, .5);
+        -webkit-appearance: none;
+	    border: 1px solid #ccc;
+	    border-radius: 0;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
 	}
 	#input-container{
 	    margin-bottom: 20px;
+        height: 40px;
+	    display: table;
+	    width: 100%;
 	}
 	#output-container{
 	    
         margin-top: 20px;
 		display: inline-block;
+	    max-height: 400px;
+	    overflow-y: scroll;
+	    font-weight: 500;
+	    border-radius: 5px;
+
 		.output-div {
-		    padding: 4px;
 		    text-align: center;
-		    /* border-bottom: 1px solid black; */
-		    margin-bottom: 10px;
-		    background: white;
-		    width: auto;
-		    float: left;
-		    margin: 10px;
-		    padding: 10px;
-		    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .25);
+		    display: inline-block;
+		    width: 100%;
+		    padding: 15px;
+		    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+		    background: #3B475F;
+		    color: white;
+		    margin-bottom: 1px;
 		}
 	}
 }
